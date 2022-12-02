@@ -8,7 +8,7 @@
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
     "live-sever": "live-server build",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +38,7 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "html-webpack-plugin": "^5.1.0",
+    "prettier": "^2.2.1",
     "style-loader": "^2.0.0",
     "typescript": "4.1.5",
     "webpack": "^5.21.2",
