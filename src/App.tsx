@@ -7,5 +7,7 @@ export const App = () => {
         <h1>React Typescript Webpack Starter Template</h1>
         <img src={IMAGE} alt="React Logo" width="300" height="200"/>
         <img src={LOGO} alt="React Logo" width="300" height="200"/>
+        <p>Environment: {process.env.NODE_ENV}</p>
+        <p>Env variable: {process.env.name}</p>
     </>
 }
